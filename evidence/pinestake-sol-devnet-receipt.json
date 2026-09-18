@@ -1,0 +1,98 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "blockTime": 1788999311,
+    "meta": {
+      "computeUnitsConsumed": 11658,
+      "costUnits": 13012,
+      "err": null,
+      "fee": 5000,
+      "innerInstructions": [],
+      "logMessages": [
+        "Program 11111111111111111111111111111111 invoke [1]",
+        "Program 11111111111111111111111111111111 success",
+        "Program MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr invoke [1]",
+        "Program log: Memo (len 28): \"faucet:bfb113a119bbee10:1SOL\"",
+        "Program MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr consumed 11508 of 202850 compute units",
+        "Program MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr success"
+      ],
+      "postBalances": [
+        61613907424,
+        1000000000,
+        1,
+        41499609334
+      ],
+      "postTokenBalances": [],
+      "preBalances": [
+        62613912424,
+        0,
+        1,
+        41499609334
+      ],
+      "preTokenBalances": [],
+      "rewards": [],
+      "status": {
+        "Ok": null
+      }
+    },
+    "slot": 495881462,
+    "transaction": {
+      "message": {
+        "accountKeys": [
+          {
+            "pubkey": "DUtrBgp6YEA8mZ5Uf53BVYehvCBayBkVLZLHxDEcouZn",
+            "signer": true,
+            "source": "transaction",
+            "writable": true
+          },
+          {
+            "pubkey": "62Eof1GTwwWBPXRbyuYj8WNTx1Li9Fp7dJwbM2i6cYLE",
+            "signer": false,
+            "source": "transaction",
+            "writable": true
+          },
+          {
+            "pubkey": "11111111111111111111111111111111",
+            "signer": false,
+            "source": "transaction",
+            "writable": false
+          },
+          {
+            "pubkey": "MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr",
+            "signer": false,
+            "source": "transaction",
+            "writable": false
+          }
+        ],
+        "instructions": [
+          {
+            "parsed": {
+              "info": {
+                "destination": "62Eof1GTwwWBPXRbyuYj8WNTx1Li9Fp7dJwbM2i6cYLE",
+                "lamports": 1000000000,
+                "source": "DUtrBgp6YEA8mZ5Uf53BVYehvCBayBkVLZLHxDEcouZn"
+              },
+              "type": "transfer"
+            },
+            "program": "system",
+            "programId": "11111111111111111111111111111111",
+            "stackHeight": 1
+          },
+          {
+            "parsed": "faucet:bfb113a119bbee10:1SOL",
+            "program": "spl-memo",
+            "programId": "MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr",
+            "stackHeight": 1
+          }
+        ],
+        "recentBlockhash": "7uFcabDAt2bB8Mx4F6D7Frdd5Sk2GwCbtMy44GLwrxwY"
+      },
+      "signatures": [
+        "2JLfmdbFQ91mubsJDCP6vqcvSEwX6ErgSUzRHHE5CY6gd9dcN11kqYsTKpaE3FkA5zj7BNhvsKGgkaaf2LsbJ9MQ"
+      ]
+    },
+    "transactionIndex": 22,
+    "version": "legacy"
+  },
+  "id": 1
+}
